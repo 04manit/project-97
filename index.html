@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title>Login Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body>
+        <div style="background-image: url('clinic.jpg');" class="col-md-12">
+
+        
+        <center>
+            <h1 style="font-size: 80px; font-weight: 1000; font-family: ALGERIAN; color: darkblue; margin-top: 80px;">
+                Online Clinic</h1>
+
+            <div class="col-md-4"></div>
+
+            <div class="col-md-4" style="border-radius: 20px; padding-top: 20px; padding-bottom: 20px; background-color: #D1E6F3;">
+                <img style="border-radius: 50%; width: 80px;" src="logo.png">
+
+                <h3>See what is happening in the world right now</h3>
+
+                <label>Username :</label>
+
+                <input class="form-control" id="user_name" placeholder="Username" type="text" style="padding-top: 5px; padding-bottom: 5px; border-radius: 3px; border: 1px solid lightgray; width: 100%;"><br><br>
+            
+                <button id="login_button" class="btn btn-primary" onclick="addUser()" style="width: 90%; border-radius: 30px;">Log in</button>
+            </div>
+
+            <div class="col-md-4"></div>
+
+        </center>
+    </div>
+
+        <div class="col-md-12">
+            <center>
+                <br><p style="color: red; font-size: 22px;"><strong style="color: darkblue;">Note : </strong>If you are a patient, then please call on this number : <strong style="color: darkblue;">+91 9810620649</strong> and take an appointent date, time and the ROOM NAME.</p>
+            </center>
+        </div>
+
+        <script src="kwitter.js"></script>
+    </body>
+</html>
